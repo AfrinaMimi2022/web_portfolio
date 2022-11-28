@@ -1,25 +1,37 @@
 body{
-    font-family: 'Roboto Slab';
+    margin: 0px;
+    font-family: 'Quantico';
 }
 h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Quantico';
     
     /* font-family: 'Port Lligat Slab';
     font-family: 'Markazi Text';*/
 }
+.top-font{
+    color: rgb(23, 231, 51);
+}
 
 .name-highlight{
-    color: rgb(47, 203, 214);
+    color: rgb(51, 68, 161);
 }
 
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 3%;
+    margin-top: 1%;
+    padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
-    margin-top: 5%;
+    width: 85%;
+    margin: 1%;
+}
+.top-banner{
+    background-image: url("images/bg-4.jpg");
+    background-repeat: no-repeat;
+}
+section{
+    height: 410px;
 }
